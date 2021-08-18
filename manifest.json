@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "author": "",
+  "version": "0.0.1",
+  "name": "Prepare CSP example",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "persistent": true,
+    "scripts": [
+      "background.js"
+    ]
+  }
+}
